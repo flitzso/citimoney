@@ -1,4 +1,10 @@
 .card {
-    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    left: 80px;
+    height: 75vh;
+    width: 80vh;
   }
 

@@ -1,10 +1,46 @@
 .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 70px;
-    left: 80px;
-    height: 75vh;
-    width: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  left: 80px;
+  height: 80vh;
+  width: 80vh;
+  margin-left: 11%;
+}
+
+.banner-image {
+  width: 1200px; /* Defina a largura desejada */
+  height: 400px; /* Defina a altura desejada */
+  margin-top: 10%;
+}
+
+  .dark-bg {
+    background-color: #000; /* Cor de fundo escura desejada */
+    padding: 10px; /* Espaçamento interno desejado */
   }
 
+  .blue-text {
+    color: blue; /* Cor do texto azul desejada */
+  }
+  
+  .white-text {
+    color: rgb(43, 43, 43); /* Cor do texto branco desejada */
+  }
+
+  .custom-block {
+    box-shadow: 8px 8px 12px 8px rgba(173, 216, 230, 0.5); /* Cor de gelo */
+    padding: 20px; /* Espaçamento interno desejado */
+    margin: 20px 0; /* Espaçamento externo desejado */
+    width: 400px; /* Largura desejada */
+    height: 150px; /* Altura desejada */
+    margin-top: 28%;
+    margin-left: 40px;
+  }
+
+  .carousel-slide {
+    max-width: 900px;
+    height: auto;
+    margin-left: 19%;
+    margin-top: 8%;
+}

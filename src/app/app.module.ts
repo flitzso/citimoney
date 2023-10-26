@@ -1,22 +1,26 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ErroCapivaraComponent } from './erro-capivara/erro-capivara.component';
-import { routing } from './app.routing';
+
+// Importe o módulo do carrossel aqui
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ErroCapivaraComponent
+    ErroCapivaraComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    routing
+    CarouselModule.forRoot(), // Importe o módulo do carrossel aqui
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+
